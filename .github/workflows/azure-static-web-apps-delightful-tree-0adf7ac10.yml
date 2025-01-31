@@ -35,8 +35,8 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "" # App source code path
-          api_location: "" # Api source code path - optional
+          app_location: "build/web" # App source code path
+          api_location: "api" # Api source code path - optional
           output_location: "build/web" # Built app content directory - optional
           github_id_token: "11b8951e784b6830c00a311aaff462baaa1aa756d9cd3dbf10f1ecae68b6458304-5ebf1179-19b0-4a7e-9e62-befe8978341f01018260adf7ac10"
           ###### End of Repository/Build Configurations ######
