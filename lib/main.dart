@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demoddddddddddd Home Page'),
+      home: const MyHomePage(title: 'Flutter SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSs Home Page'),
     );
   }
 }
@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this dddddddddddddddddmany times:',
+              'YouSSSSSSSSSSSSSSSSSSSSs have pushed the button this SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS times:',
             ),
             Text(
               '$_counter',
