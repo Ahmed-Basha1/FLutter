@@ -16,11 +16,12 @@ jobs:
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/checkout@v1
-      - uses: subosito/flutter-action@v1
         with:
           submodules: true
           lfs: false
+      - uses: actions/checkout@v1
+      - uses: subosito/flutter-action@v1
+        with:
           channel: 'beta'
       - name: Install packages
         run: |
